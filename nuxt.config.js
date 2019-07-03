@@ -6,7 +6,6 @@ const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
 
 export default {
   mode: 'universal',
-  ...routerBase,
   /*
   ** Headers of the page
   */
@@ -20,6 +19,9 @@ export default {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
+  },
+  router: {
+    base: '/portfolio/'
   },
   /*
   ** Customize the progress-bar color
