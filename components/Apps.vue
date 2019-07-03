@@ -64,10 +64,7 @@
               ChartとTodoを掛け合わせたものとなっております。</p>
             <a
               target="_blank"
-              href='https://play.google.com/store/apps/details?id=com.jikoapps.charto&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img
-              alt='Get it on Google Play'
-              src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png'
-            /></a>
+              href='https://charto-abc1d.firebaseapp.com/'>こちらから</a>
             <h3>使用技術</h3>
             <div class="techs">
               <div>

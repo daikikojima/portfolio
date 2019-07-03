@@ -1,13 +1,13 @@
 <template>
   <ul >
     <li>
-      <a href="/">Home</a>
+      <nuxt-link to="/">Home</nuxt-link>
     </li>
     <li>
-      <a href="/about">About me</a>
+      <nuxt-link to="/about">About me</nuxt-link>
     </li>
     <li>
-      <a href="/Works">Works</a>
+      <nuxt-link to="/Works">Works</nuxt-link>
     </li>
   </ul>
 </template>
