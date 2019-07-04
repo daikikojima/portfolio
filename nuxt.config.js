@@ -1,9 +1,3 @@
-const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
-  router: {
-    base: '/portfolio/'
-  }
-} : {};
-
 export default {
   mode: 'universal',
   /*
@@ -19,9 +13,6 @@ export default {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
-  },
-  router: {
-    base: '/portfolio/'
   },
   /*
   ** Customize the progress-bar color
