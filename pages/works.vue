@@ -12,16 +12,10 @@
 
 <script>
   import Apps from '~/components/Apps.vue'
-  import CharToHeader from '~/static/charto_header.png'
   export default {
     components: {
       Apps,
     },
-    data() {
-      return {
-        charto_header: CharToHeader,
-      }
-    }
   }
 </script>
 

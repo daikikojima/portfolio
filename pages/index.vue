@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div>
-      <img id="my-img" src="~/static/profile.jpg"/>
+      <img id="my-img" src="~/static/profile.webp"/>
       <h1 class="title">
         Daikids
       </h1>
@@ -34,8 +34,8 @@
 
 <script>
   import SocialIcon from '~/components/SocialIcon.vue'
-  import GitHubImage from '~/static/github.png'
-  import TwitterImage from '~/static/twitter.png'
+  import GitHubImage from '~/static/github.webp'
+  import TwitterImage from '~/static/twitter.svg'
   import SlidesImage from '~/static/slides.svg'
   export default {
     components: {

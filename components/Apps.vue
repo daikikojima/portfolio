@@ -18,11 +18,11 @@
           <h3>使用技術</h3>
           <div class="techs">
             <div>
-              <img src="~/static/kotlin_logo.png"/>
+              <img src="~/static/kotlin_logo.webp"/>
               <p>Kotlin</p>
             </div>
             <div>
-              <img src="~/static/firebase_logo.png"/>
+              <img src="~/static/firebase_logo.webp"/>
               <p>Firebase</p>
             </div>
           </div>
@@ -40,11 +40,11 @@
           <h3>使用技術</h3>
           <div class="techs">
             <div>
-              <img src="~/static/kotlin_logo.png"/>
+              <img src="~/static/kotlin_logo.webp"/>
               <p>Kotlin</p>
             </div>
             <div>
-              <img src="~/static/map_icon.png"/>
+              <img src="~/static/map_icon.webp"/>
               <p>Maps sdk for Android</p>
             </div>
           </div>
@@ -61,11 +61,11 @@
           <h3>使用技術</h3>
           <div class="techs">
             <div>
-              <img src="~/static/vue.png"/>
+              <img src="~/static/vue.webp"/>
               <p>Vue.js</p>
             </div>
             <div>
-              <img src="~/static/firebase_logo.png"/>
+              <img src="~/static/firebase_logo.webp"/>
               <p>Firebase</p>
             </div>
           </div>
@@ -95,10 +95,10 @@
 
 <script>
   import Card from '~/components/Card.vue'
-  import CharToHeader from '~/static/charto_header.png'
-  import CharToWebHeader from '~/static/charto_web_header.png'
-  import MarkparkHeader from '~/static/markpark_header.png'
-  import LibcomHeader from '~/static/libcom_header.png'
+  import CharToHeader from '~/static/charto_header.webp'
+  import CharToWebHeader from '~/static/charto_web_header.webp'
+  import MarkparkHeader from '~/static/markpark_header.webp'
+  import LibcomHeader from '~/static/libcom_header.webp'
 
   export default {
     name: "Apps.vue",
