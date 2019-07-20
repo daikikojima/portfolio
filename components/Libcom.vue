@@ -7,12 +7,12 @@
       積読管理アプリLibComです。本をバーコードから登録して、グラフを見ながら本の進捗を管理できます!
     </p>
     <a href="https://apps.apple.com/gb/app/libcom/id1455763687" target="_blank">
-      <img src="~/static/ioc_icon.svg">
+      <img src="~/static/ioc_icon.svg" decoding="async">
     </a>
     <h3>使用技術</h3>
     <div class="techs">
       <div>
-        <img src="~/static/swift_logo.svg"/>
+        <img src="~/static/swift_logo.svg" decoding="async"/>
         <p>Swift</p>
       </div>
     </div>

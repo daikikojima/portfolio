@@ -1,7 +1,7 @@
 <template>
   <div class="social-icon" :style="styles">
     <a :title="title" :href="url" target="_blank">
-      <img :src='img'/> 
+      <img :src='img' decoding="async"/>
     </a>  
   </div>
 </template>

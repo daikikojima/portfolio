@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div>
-      <img id="my-img" src="~/static/profile.webp"/>
+      <img id="my-img" src="~/static/profile.webp" decoding="async"/>
       <h1 class="title">
         Daikids
       </h1>

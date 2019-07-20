@@ -12,11 +12,11 @@
     <h3>使用技術</h3>
     <div class="techs">
       <div>
-        <img src="~/static/kotlin_logo.webp"/>
+        <img src="~/static/kotlin_logo.webp" decoding="async"/>
         <p>Kotlin</p>
       </div>
       <div>
-        <img src="~/static/map_icon.webp"/>
+        <img src="~/static/map_icon.webp" decoding="async"/>
         <p>Maps sdk for Android</p>
       </div>
     </div>

@@ -3,6 +3,7 @@
       <v-card class="card">
         <v-img
           height="300"
+          :lazy-src="image"
           :src="image"
         ></v-img>
 

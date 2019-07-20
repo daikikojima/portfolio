@@ -9,11 +9,11 @@
     <h3>使用技術</h3>
     <div class="techs">
       <div>
-        <img src="~/static/vue.webp"/>
+        <img src="~/static/vue.webp" decoding="async"/>
         <p>Vue.js</p>
       </div>
       <div>
-        <img src="~/static/firebase_logo.webp"/>
+        <img src="~/static/firebase_logo.webp" decoding="async"/>
         <p>Firebase</p>
       </div>
     </div>

@@ -14,11 +14,11 @@
     <h3>使用技術</h3>
     <div class="techs">
       <div>
-        <img src="~/static/kotlin_logo.webp"/>
+        <img src="~/static/kotlin_logo.webp" decoding="async"/>
         <p>Kotlin</p>
       </div>
       <div>
-        <img src="~/static/firebase_logo.webp"/>
+        <img src="~/static/firebase_logo.webp" decoding="async"/>
         <p>Firebase</p>
       </div>
     </div>
