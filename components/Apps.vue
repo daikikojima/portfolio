@@ -3,113 +3,34 @@
     <h2 class="subtitle">App</h2>
     <v-container grid-list-md text-xs-center>
       <v-layout row wrap>
-        <Card
-          title="CharTo"
-          :image="charto_header"
-        >
-          <p class="card-text">タスク管理ツールCharToです。
-            ChartとTodoを掛け合わせたものとなっております。</p>
-          <a
-            target="_blank"
-            href='https://play.google.com/store/apps/details?id=com.jikoapps.charto&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img
-            alt='Get it on Google Play'
-            src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png'
-          /></a>
-          <h3>使用技術</h3>
-          <div class="techs">
-            <div>
-              <img src="~/static/kotlin_logo.webp"/>
-              <p>Kotlin</p>
-            </div>
-            <div>
-              <img src="~/static/firebase_logo.webp"/>
-              <p>Firebase</p>
-            </div>
-          </div>
-        </Card>
-        <Card
-          title="MarkPark"
-          :image="markpark_header"
-        >
-          <p class="card-text">自転車の駐輪場所を記録し、自転車探しを手助けするアプリです。</p>
-          <a
-            target="_blank"
-            href='https://play.google.com/store/apps/details?id=com.jiko.bycicle&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img
-            alt='Get it on Google Play'
-            src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png'/></a>
-          <h3>使用技術</h3>
-          <div class="techs">
-            <div>
-              <img src="~/static/kotlin_logo.webp"/>
-              <p>Kotlin</p>
-            </div>
-            <div>
-              <img src="~/static/map_icon.webp"/>
-              <p>Maps sdk for Android</p>
-            </div>
-          </div>
-        </Card>
+        <Charto />
+        <Markpark />
       </v-layout>
       <v-layout row wrap>
-        <Card
-          title="CharTo for Web"
-          :image="charto_web_header"
-        >
-          <p class="card-text">タスク管理ツールCharToのWeb版です。PWAにも対応しております。
-            ChartとTodoを掛け合わせたものとなっております。
-            <a target="_blank" href="https://charto-abc1d.firebaseapp.com/">こちら</a></p>
-          <h3>使用技術</h3>
-          <div class="techs">
-            <div>
-              <img src="~/static/vue.webp"/>
-              <p>Vue.js</p>
-            </div>
-            <div>
-              <img src="~/static/firebase_logo.webp"/>
-              <p>Firebase</p>
-            </div>
-          </div>
-        </Card>
-        <Card
-          title="LibCom"
-          :image="libcom_header"
-        >
-        <p class="card-text">
-          積読管理アプリLibComです。本をバーコードから登録して、グラフを見ながら本の進捗を管理できます!
-        </p>
-        <a href="https://apps.apple.com/gb/app/libcom/id1455763687" target="_blank">
-          <img src="~/static/ioc_icon.svg">
-        </a>
-        <h3>使用技術</h3>
-        <div class="techs">
-          <div>
-            <img src="~/static/swift_logo.svg"/>
-            <p>Swift</p>
-          </div>
-        </div>
-        </Card>
+        <ChartoWeb />
+        <Libcom />
       </v-layout>
     </v-container>
   </div>
 </template>
 
 <script>
-  import Card from '~/components/Card.vue'
-  import CharToHeader from '~/static/charto_header.webp'
-  import CharToWebHeader from '~/static/charto_web_header.webp'
-  import MarkparkHeader from '~/static/markpark_header.webp'
   import LibcomHeader from '~/static/libcom_header.webp'
+  import Charto from "./Charto";
+  import ChartoWeb from "./ChartoWeb";
+  import Markpark from "./Markpark";
+  import Libcom from "./Libcom";
 
   export default {
     name: "Apps.vue",
     components: {
-      Card,
+      Libcom,
+      Markpark,
+      ChartoWeb,
+      Charto,
     },
     data() {
       return {
-        charto_header: CharToHeader,
-        charto_web_header: CharToWebHeader,
-        markpark_header: MarkparkHeader,
         libcom_header: LibcomHeader,
       }
     }
