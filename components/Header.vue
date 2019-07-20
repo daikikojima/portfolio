@@ -1,4 +1,4 @@
-<template>
+<template functional>
   <ul>
     <li>
       <a href="/">Home</a>

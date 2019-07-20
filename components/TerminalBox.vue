@@ -1,4 +1,4 @@
-<template>
+<template functional>
   <div class="terminal-box">
     <div class="app-bar">
       <div class="bar-button red-circle"/>
